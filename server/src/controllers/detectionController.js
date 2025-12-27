@@ -10,7 +10,7 @@ import { generateInsights, assessCopyrightRisk } from '../utils/aiInsights.js';
  */
 import { generateImageHash, generateVideoFingerprint, getSimilarityFromHash } from '../utils/mediaProcessor.js';
 import fs from 'fs';
-import { checkTextPlagiarism } from '../utils/googleSearchAPI.js';
+import { checkTextPlagiarism } from '../utils/webScraper.js';
 import { searchYouTube } from '../utils/youtubeChecker.js';
 
 /**
